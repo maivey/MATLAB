@@ -62,7 +62,8 @@ Now, some calculations can be made.
 
 (v) Upon receipt of valid user input, calculate the distance between the centers of each shape following Eq. (1):
 
-  d = sqrt((_x_<sub>_2_</sub> - _x_<sub>_1_</sub>)<sup>_2_</sup> + (_y_<sub>_2_</sub> - _y_<sub>_1_</sub>)<sup>_2_</sup>)
+  
+  <img src="https://latex.codecogs.com/gif.latex?d=&space;\sqrt{(x_{2}&space;-&space;x_{1})^{2}&space;&plus;&space;(y_{2}&space;-&space;y_{1})^2}" title="d= \sqrt{(x_{2} - x_{1})^{2} + (y_{2} - y_{1})^2}" />
     
     
 
