@@ -14,20 +14,23 @@ Code that determines about the first 90% of an amortization schedule and this co
 	- Annual interest rate for the loan (_ir_)
 	
 - Using the inputs, calculate and display the principal (_P_) to the user (i.e. on the Command Window).
-
-	_P_ = _pp_ – [[(_perc_/ 100 )] * _pp_]
+	
+	<img src="https://latex.codecogs.com/gif.latex?P&space;=&space;pp&space;-&space;(\frac{perc}{100}&space;\ast&space;pp)" title="P = pp - (\frac{perc}{100} \ast pp)" />
 
 - Calculate the annual interest rate (_in_) and the number of payments (_np_).
-	_in_ = (_ir_ / 12) / 100
-	_np_ = _term_ * 12
+
+	<img src="https://latex.codecogs.com/gif.latex?in&space;=&space;\frac{\frac{ir}{12}}{100}" title="in = \frac{\frac{ir}{12}}{100}" />
+	<br/><br/>
+	
+	<img src="https://latex.codecogs.com/gif.latex?np&space;=&space;term&space;\ast&space;12" title="np = term \ast 12" />
 
 - Calculate the monthly payment (mp).
 
-	_mp_ = [_in_ * _P_ * (1 + _in_)<sup>_np_</sup>] / [( 1 + _in_)<sup>_np_</sup> – 1]
+	<img src="https://latex.codecogs.com/gif.latex?mp&space;=&space;\frac{in&space;\ast&space;P&space;\ast&space;(1&plus;in)^np}{(1&plus;in)^{np}&space;-1}" title="mp = \frac{in \ast P \ast (1+in)^np}{(1+in)^{np} -1}" />
 
 
 - As a first step to filling in the amortization schedule, calculate the amount of interest paid for the first payment (_m1_).
 
-	_m1_ = _P_ * _in_
+	<img src="https://latex.codecogs.com/gif.latex?m1&space;=&space;P&space;\ast&space;in" title="m1 = P \ast in" />
 	
 - Display the monthly payment and the first month’s interest payment for the user.
