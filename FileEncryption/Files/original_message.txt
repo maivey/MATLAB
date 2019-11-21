@@ -1,0 +1,1 @@
+This is the message to be encrypted:-------------------------------------I am meeting Dr. Jones at 12:00 AM, February 20, 2017,on the northern side of Pier 17. We will make the exchange there.The password is @#$%^.End
